@@ -4,8 +4,6 @@ Find any screenshot by describing it in plain words. Gemma 4 reads each screensh
 
 Demo video: https://youtu.be/oH65CRKHw5Q
 
-GitHub: https://github.com/abbasmir12/screenmemory
-
 > I had 560 screenshots named like `Screenshot 2026-07-18 204819`.
 > I knew I had taken the one I needed. I just could not find it.
 
@@ -49,7 +47,7 @@ pip install -r requirements.txt
 Get a model. This example uses local Ollama:
 
 ```
-ollama pull gemma4:e2b
+ollama pull gemma4:e4b
 ```
 
 Any vision-capable model with tool calling works. Larger models write better descriptions.
@@ -59,7 +57,7 @@ Copy `.env.example` to `.env`. The defaults point at local Ollama:
 ```
 LLM_BASE_URL=http://localhost:11434/v1
 LLM_API_KEY=ollama
-LLM_MODEL=gemma4:e2b
+LLM_MODEL=gemma4:e4b
 ```
 
 Test your setup. This checks the model, tool calling, and the database, and tells you what to fix:
@@ -135,16 +133,7 @@ Run `python main.py check` first. It usually names the problem.
 | Tool calling not used | The model ignores tools, so the app uses keyword mode. Try a larger model |
 | Screenshots not detected | Set `SHOTS_DIR` in `.env` if your folder is not `Pictures\Screenshots` |
 
-## Roadmap
-
-Search by meaning, so "cheap flights" finds "budget airfare". Start with Windows automatically. Package it as a single `.exe` so it runs without Python.
 
 ## Built for
 
-The[Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01), around an open model, with the idea that your screenshots should stay yours.
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE) file.
+The [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01), around an open model, with the idea that your screenshots should stay yours.
