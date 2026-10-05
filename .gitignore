@@ -30,3 +30,6 @@ Desktop.ini
 # Python cache
 *.pyc
 *.pyo
+
+# Freebuff local state
+.freebuff/

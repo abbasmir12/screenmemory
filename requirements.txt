@@ -1,0 +1,4 @@
+pillow
+watchdog
+# only if you use MongoDB Atlas:
+# pymongo
