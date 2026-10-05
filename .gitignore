@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual envs
+venv/
+ENV/
+env/
+.venv/
+
+# SQLite / local DB
+*.db
+
+# Env / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python cache
+*.pyc
+*.pyo
