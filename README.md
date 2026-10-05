@@ -4,6 +4,8 @@ Find any screenshot by describing it in plain words. Gemma 4 reads each screensh
 
 Demo video: https://youtu.be/oH65CRKHw5Q
 
+GitHub: https://github.com/abbasmir12/screenmemory
+
 > I had 560 screenshots named like `Screenshot 2026-07-18 204819`.
 > I knew I had taken the one I needed. I just could not find it.
 
@@ -139,4 +141,10 @@ Search by meaning, so "cheap flights" finds "budget airfare". Start with Windows
 
 ## Built for
 
-The [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01), around an open model, with the idea that your screenshots should stay yours.
+The[Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01), around an open model, with the idea that your screenshots should stay yours.
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE) file.
